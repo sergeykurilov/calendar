@@ -1,0 +1,27 @@
+.container{
+  max-width: 80%;
+  margin: auto;
+}
+.mainBlocks{
+  display: flex;
+  justify-content: center;
+  height: calc(110vh - 200px);
+}
+
+.content{
+  flex: 25%;
+  position: relative;
+}
+@media screen and (max-width: 1200px){
+  .content{
+    display: none;
+  }
+}
+
+.content>div{
+  height: 100%;
+  min-width: 100%;
+}
+.content>div>img {
+  min-width: 102% !important;
+}
