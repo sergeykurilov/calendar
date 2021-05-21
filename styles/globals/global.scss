@@ -1,0 +1,20 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.footer > div > span {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  display: block;
+  padding-top: 20px;
+}

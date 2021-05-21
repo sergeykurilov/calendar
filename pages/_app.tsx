@@ -1,11 +1,11 @@
 import NextNprogress from 'nextjs-progressbar';
 import React from "react";
-import {NextComponentType} from "next";
-import "../styles/common.scss"
+import "../styles/globals/common.scss"
 import {Provider} from "react-redux";
-import store from '../redux/store';
+import { AppProps } from 'next/app'
+import {store} from "../redux/store";
 
-export default function MyApp({Component, pageProps}: { Component: NextComponentType, pageProps: any }) {
+export default function MyApp({ Component, pageProps }: AppProps): JSX.Element {
     return (
         <>
             <Provider store={store}>

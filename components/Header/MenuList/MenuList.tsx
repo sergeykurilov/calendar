@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Link from "next/link";
-import classes from "./menuList.module.scss"
+import classes from "../../../styles/components/Header/menuList.module.scss"
 
 
 export const MenuList = () => {
@@ -17,8 +17,6 @@ export const MenuList = () => {
                     <a className={classes.listMenu}>About</a>
                 </Link>
             </div>
-
-
             <div className={classes.mobileMenu}>
                 <p className={classes.listMenu} onClick={toggling}>Menu</p>
                 {isOpen && (

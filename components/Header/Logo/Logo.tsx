@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from "./logo.module.scss"
+import classes from "../../../styles/components/Header/logo.module.scss"
 
 export const Logo = () => {
     return (

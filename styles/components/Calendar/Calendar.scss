@@ -1,156 +1,3 @@
-a{
-  text-decoration:none;
-}
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.container{
-  max-width: 85%;
-  margin: 0 auto;
-}
-
-.footer>div>span{
-  font-family: "Rubik", sans-serif;
-  font-size: 14px;
-  display: block;
-  padding-top: 20px;
-}
-//aboutPage
-
-.about-title{
-  font-family: "Rubik", sans-serif;
-  font-size: 52px;
-  font-weight: bold;
-  max-width: 85%;
-  margin: auto;
-  margin-top: 1em;
-  padding-bottom: 3%;
-}
-
-.about-description{
-  font-family: "Rubik", sans-serif;
-  font-size: 18px;
-  padding-bottom: 4px;
-  max-width: 85%;
-  margin: auto;
-}
-
-
-
-
-//MainScreen
-
-.text-content {
-  display: block;
-  min-width: fit-content !important;
-  position: absolute;
-  height: max-content !important;
-  top: 27%;
-  left: 21%;
-  padding-left: 20%;
-  min-width: 50% !important;
-}
-.text-content>h1 {
-  letter-spacing: 3.5px;
-  color: #FDD000;
-  font-family: "Rubik";
-  text-transform: uppercase;
-  max-width: 95%;
-  font-size: 42px;
-  margin-bottom: 10px;
-}
-.text-content>p {
-  max-width: 85%;
-  font-family: "Rubik";
-  text-transform: uppercase;
-  font-size: 20px;
-  color: #fff;
-  margin: 0px;
-}
-
-//Modal
-
-.wrapper-window {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.25);
-  z-index: 999;
-}
-
-.modal {
-  position: fixed;
-  max-width: 50%;
-  max-height: 20%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transform: translate(50%, 16em);
-  background: #fff;
-  color: #ffffff;
-  z-index: 9;
-}
-.modal_label {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #000;
-  font-size: 17px;
-  font-family: 'Rubik';
-}
-.modal-blocks{
-  display: flex;
-  padding-top: 5%;
-}
-.modal_input {
-  border: 4px solid #FDD000;
-  margin: auto;
-  margin-left: 27%;
-  margin-right: 0%;
-  max-width: 47%;
-  padding-left: 3%;
-  font-family: 'Rubik';
-  font-size: 15px;
-  border-radius: 2px;
-}
-
-.modal-enter {
-  opacity: 0;
-}
-
-.modal_close{
-  max-width: 100%;
-  background: #FDD000;
-  border: none;
-  outline: none;
-  font-family: 'Rubik';
-  position: absolute;
-  right: 0%;
-  top: 0%;
-  padding: 0.3em 1.1em;
-}
-
-.modal-enter-active {
-  opacity: 1;
-  transition: opacity 200ms;
-}
-
-.modal-exit {
-  opacity: 1;
-}
-
-.modal-exit-active {
-  opacity: 0;
-  transition: opacity 200ms;
-}
-
 //Calendar
 
 .calendar-container {
@@ -159,12 +6,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .calendar-button {
   margin-left: 0.3rem;
   margin-right: 0.3rem;
   min-width: 3rem;
   min-height: 1.8rem;
 }
+
 .calendar-title {
   display: flex;
   flex-direction: row;
@@ -172,16 +21,19 @@ body {
   align-items: center;
   padding: 1rem;
 }
+
 .calendar-title > div {
   margin-left: 0.3rem;
   margin-right: 0.3rem;
 }
+
 .week-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
 .box {
   padding: 0.6rem 0;
   /* margin: 0.6rem; */
@@ -213,6 +65,7 @@ body {
 .bottom-container {
   text-align: center;
 }
+
 .today {
   color: #fafafa;
   border-radius: 0.9rem;
@@ -220,6 +73,7 @@ body {
   width: 1.8rem;
   height: 1.8rem;
 }
+
 .box-text {
   padding: 0.6rem;
 }
@@ -246,7 +100,7 @@ body {
 
 //***
 .calendar {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -258,7 +112,7 @@ body {
   background-color: #272829;
   color: #DFDFDF;
 
-  &__header{
+  &__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -272,31 +126,31 @@ body {
   &__button {
     margin: 5px 0;
     padding: 6px 0;
-    border:none;
+    border: none;
     font-size: 25px;
     font-weight: 300;
-    color:#DFDFDF;
+    color: #DFDFDF;
     background-color: transparent;
     opacity: 0.67;
   }
 
-  &__table{
-    display:block;
-    width:100%;
+  &__table {
+    display: block;
+    width: 100%;
   }
 
-  &__tbody{
+  &__tbody {
     margin: 0 -10px;
     display: block;
     padding-top: 38px;
     // border-top: 1px solid #DFDFDF;
   }
 
-  &__thead{
+  &__thead {
     display: block;
   }
 
-  &__thead tr{
+  &__thead tr {
     display: flex;
     justify-content: space-between;
     // display: grid;
@@ -327,7 +181,7 @@ body {
     cursor: pointer;
     text-align: center;
 
-    &:hover{
+    &:hover {
       background-color: #ffffff;
       color: #000;
     }
@@ -341,19 +195,20 @@ body {
   }
 
   &__today {
-    background-color:#fdd000;
-    color:#272829;
+    background-color: #fdd000;
+    color: #272829;
   }
 
-  &__selected {}
+  &__selected {
+  }
 
-  @media(max-width: 1100px){
-    height:auto;
+  @media(max-width: 1100px) {
+    height: auto;
     margin-left: 0;
   }
 
-  @media(max-width:900px){
-    padding:10% 5%;
+  @media(max-width: 900px) {
+    padding: 10% 5%;
     min-width: 300px;
   }
 }

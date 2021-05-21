@@ -1,12 +1,11 @@
-import Layout from '../components/Layout'
+import Layout from '../components/Layots/Layout'
 import Image from 'next/image'
-import classes from "../styles/main.module.scss"
+import classes from "../styles/pages/main/main.module.scss"
 import React from "react";
 import {Calendar} from "../components/Calendar/Calendar";
 
 
 const IndexPage = () => {
-
     return (
         <Layout title="Home | RDevs">
             <section className={classes.main}>
@@ -14,7 +13,7 @@ const IndexPage = () => {
                     <div className={classes.content}>
                         <Image
                             alt="Mountains"
-                            src="/artboard.png"
+                            src="/images/artboard.png"
                             width={700}
                             priority={false}
                             height={475}
