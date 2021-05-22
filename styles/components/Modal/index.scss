@@ -15,7 +15,7 @@
 .modal {
   position: fixed;
   max-width: 50%;
-  max-height: 20%;
+  max-height: 25%;
   top: 0;
   right: 0;
   bottom: 0;
@@ -82,6 +82,11 @@
   opacity: 0;
   transition: opacity 200ms;
 }
+@media screen and (max-width: 768px) {
+  .modal {
+    max-height: 40%;
+  }
+}
 
 @media screen and (max-width: 568px) {
   .modal-blocks {
@@ -90,6 +95,6 @@
     flex-wrap: wrap;
   }
   .modal {
-    max-height: 28%;
+    max-height: 35%;
   }
 }
