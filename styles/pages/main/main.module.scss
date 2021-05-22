@@ -10,6 +10,9 @@
 .content{
   flex: 25%;
   position: relative;
+  background: url("/images/artboard.png");
+  background-position: left;
+  background-size: cover;
 }
 @media screen and (max-width: 1200px){
   .content{
